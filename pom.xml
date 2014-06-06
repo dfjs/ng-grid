@@ -95,13 +95,13 @@
                                     </filelist>
                                 </move>
                                 <move todir="${destDir}/plugins">
-                                    <filelist dir="${unzip.dir}">
-                                        <file name="plugins/ng-grid-csv-export.js" />
-                                        <file name="plugins/ng-grid-flexible-height.js" />
-                                        <file name="plugins/ng-grid-layout.js" />
-                                        <file name="plugins/ng-grid-pdf-export.js" />
-                                        <file name="plugins/ng-grid-reorderable.js" />
-                                        <file name="plugins/ng-grid-wysiwyg-export.js" />
+                                    <filelist dir="${unzip.dir}/plugins">
+                                        <file name="ng-grid-csv-export.js" />
+                                        <file name="ng-grid-flexible-height.js" />
+                                        <file name="ng-grid-layout.js" />
+                                        <file name="ng-grid-pdf-export.js" />
+                                        <file name="ng-grid-reorderable.js" />
+                                        <file name="ng-grid-wysiwyg-export.js" />
                                     </filelist>
                                 </move>
                             </target>
